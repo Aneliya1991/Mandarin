@@ -1,7 +1,6 @@
 package com.project;
 
 import com.qaprosoft.carina.core.foundation.AbstractTest;
-import net.rcarz.jiraclient.User;
 import org.testng.annotations.Test;
 import com.qaprosoft.carina.core.foundation.api.http.HttpResponseStatusType;
 

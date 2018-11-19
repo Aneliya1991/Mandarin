@@ -11,7 +11,7 @@ public class LoginTests extends AbstractTest {
     public static void createLoginApiTest() {
         PostLoginMethod postLoginMethod = new PostLoginMethod();
         postLoginMethod.expectResponseStatus(HttpResponseStatusType.OK_200);
-        String response = postLoginMethod.callAPI().asString();
+        postLoginMethod.callAPI().asString();
         postLoginMethod.validateResponse();
     }
 }
