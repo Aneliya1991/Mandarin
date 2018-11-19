@@ -7,7 +7,7 @@ public interface Constants {
         String LOGIN_RES_BODY = "login_rs.json";
     }
 
-    public interface Onboarding {
-        String
+    public interface ONBOARDING {
+        String ONBOARDING_REQ_BODY = "onboarding_rs.json";
     }
 }
