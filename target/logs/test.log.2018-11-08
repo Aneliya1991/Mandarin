@@ -1,0 +1,464 @@
+2018-11-08 23:44:03 AbstractTest [INFO] 
+============= Test configuration =============
+url={must_override}
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=
+browser_version=
+selenium_host={must_override}
+driver_mode=method_mode
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+extra_capabilities=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_port=0
+browsermob_disabled_mitm=true
+proxy_set_to_system=true
+report_url={must_override}
+email_list={must_override}
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+smart_screenshot=false
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=../reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+sender_email={must_override}
+sender_pswd={must_override}
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+mobile_screen_switcher=false
+optimize_video_recording=false
+testrail_url=
+testrail_user=
+testrail_password=
+testrail_updater=com.qaprosoft.carina.core.foundation.report.testrail.EmptyTestRailUpdater
+testrail_milestone=
+testrail_assignee=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_local_storage=.
+s3_save_screenshots=FALSE
+hockeyapp_token=
+hockeyapp_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+cucumber_tests=
+cucumber_tests_app_version=
+cucumber_tests_name=
+cucumber_tests_results_image_resize=30
+cucumber_user_js_in_report=
+cucumber_report_subfolder=cucumber-html-reports
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_host={must_override}
+
+------------- Driver capabilities -----------
+================================================
+
+2018-11-08 23:44:04 L10N [INFO] Will use L10N encoding: ISO-8859-1
+2018-11-08 23:44:04 Messager [INFO] INFO:  TEST [apitesting - createalbumApiTest] STARTED at [23:44:04 2018-11-08]
+2018-11-08 23:44:04 Messager [INFO] INFO:  TEST [apitesting - createalbumApiTest] FAILED at [23:44:04 2018-11-08] - No enum constant com.qaprosoft.carina.core.foundation.api.http.HttpMethodType.Post
+
+java.lang.Enum.valueOf(Enum.java:238)
+com.qaprosoft.carina.core.foundation.api.http.HttpMethodType.valueOf(HttpMethodType.java:23)
+com.qaprosoft.carina.core.foundation.api.AbstractApiMethod.init(AbstractApiMethod.java:87)
+com.qaprosoft.carina.core.foundation.api.AbstractApiMethod.<init>(AbstractApiMethod.java:74)
+com.qaprosoft.carina.core.foundation.api.AbstractApiMethodV2.<init>(AbstractApiMethodV2.java:39)
+PostLoginMethod.<init>(PostLoginMethod.java:9)
+albumApiTest.createalbumApiTest(albumApiTest.java:10)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+org.testng.TestRunner.privateRun(TestRunner.java:767)
+org.testng.TestRunner.run(TestRunner.java:617)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+org.testng.SuiteRunner.run(SuiteRunner.java:254)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+org.testng.TestNG.run(TestNG.java:1057)
+org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2018-11-08 23:44:04 Messager [INFO] INFO:  TEST [apitesting - createalbumApiTest] FAILED at [23:44:04 2018-11-08] - null
+
+com.qaprosoft.carina.core.foundation.utils.naming.TestNamingUtil.getPackageName(TestNamingUtil.java:193)
+com.qaprosoft.carina.core.foundation.listeners.AbstractTestListener.createTestResult(AbstractTestListener.java:513)
+com.qaprosoft.carina.core.foundation.listeners.AbstractTestListener.failItem(AbstractTestListener.java:107)
+com.qaprosoft.carina.core.foundation.listeners.AbstractTestListener.onTestFailure(AbstractTestListener.java:342)
+org.testng.internal.Invoker.runTestListeners(Invoker.java:1895)
+org.testng.internal.Invoker.runTestListeners(Invoker.java:1879)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:778)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+org.testng.TestRunner.privateRun(TestRunner.java:767)
+org.testng.TestRunner.run(TestRunner.java:617)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+org.testng.SuiteRunner.run(SuiteRunner.java:254)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+org.testng.TestNG.run(TestNG.java:1057)
+org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2018-11-08 23:55:02 AbstractTest [INFO] 
+============= Test configuration =============
+url={must_override}
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=
+browser_version=
+selenium_host={must_override}
+driver_mode=method_mode
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+extra_capabilities=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_port=0
+browsermob_disabled_mitm=true
+proxy_set_to_system=true
+report_url={must_override}
+email_list={must_override}
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+smart_screenshot=false
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=../reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+sender_email={must_override}
+sender_pswd={must_override}
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+mobile_screen_switcher=false
+optimize_video_recording=false
+testrail_url=
+testrail_user=
+testrail_password=
+testrail_updater=com.qaprosoft.carina.core.foundation.report.testrail.EmptyTestRailUpdater
+testrail_milestone=
+testrail_assignee=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_local_storage=.
+s3_save_screenshots=FALSE
+hockeyapp_token=
+hockeyapp_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+cucumber_tests=
+cucumber_tests_app_version=
+cucumber_tests_name=
+cucumber_tests_results_image_resize=30
+cucumber_user_js_in_report=
+cucumber_report_subfolder=cucumber-html-reports
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_host={must_override}
+
+------------- Driver capabilities -----------
+================================================
+
+2018-11-08 23:55:03 L10N [INFO] Will use L10N encoding: ISO-8859-1
+2018-11-08 23:55:03 Messager [INFO] INFO:  TEST [apitesting - createalbumApiTest] STARTED at [23:55:03 2018-11-08]
+2018-11-08 23:55:03 Messager [INFO] INFO:  TEST [apitesting - createalbumApiTest] FAILED at [23:55:03 2018-11-08] - No enum constant com.qaprosoft.carina.core.foundation.api.http.HttpMethodType.Post
+
+java.lang.Enum.valueOf(Enum.java:238)
+com.qaprosoft.carina.core.foundation.api.http.HttpMethodType.valueOf(HttpMethodType.java:23)
+com.qaprosoft.carina.core.foundation.api.AbstractApiMethod.init(AbstractApiMethod.java:87)
+com.qaprosoft.carina.core.foundation.api.AbstractApiMethod.<init>(AbstractApiMethod.java:74)
+com.qaprosoft.carina.core.foundation.api.AbstractApiMethodV2.<init>(AbstractApiMethodV2.java:39)
+PostLoginMethod.<init>(PostLoginMethod.java:9)
+albumApiTest.createalbumApiTest(albumApiTest.java:10)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+org.testng.TestRunner.privateRun(TestRunner.java:767)
+org.testng.TestRunner.run(TestRunner.java:617)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+org.testng.SuiteRunner.run(SuiteRunner.java:254)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+org.testng.TestNG.run(TestNG.java:1057)
+org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2018-11-08 23:55:03 Messager [INFO] INFO:  TEST [apitesting - createalbumApiTest] FAILED at [23:55:03 2018-11-08] - null
+
+com.qaprosoft.carina.core.foundation.utils.naming.TestNamingUtil.getPackageName(TestNamingUtil.java:193)
+com.qaprosoft.carina.core.foundation.listeners.AbstractTestListener.createTestResult(AbstractTestListener.java:513)
+com.qaprosoft.carina.core.foundation.listeners.AbstractTestListener.failItem(AbstractTestListener.java:107)
+com.qaprosoft.carina.core.foundation.listeners.AbstractTestListener.onTestFailure(AbstractTestListener.java:342)
+org.testng.internal.Invoker.runTestListeners(Invoker.java:1895)
+org.testng.internal.Invoker.runTestListeners(Invoker.java:1879)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:778)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+org.testng.TestRunner.privateRun(TestRunner.java:767)
+org.testng.TestRunner.run(TestRunner.java:617)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+org.testng.SuiteRunner.run(SuiteRunner.java:254)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+org.testng.TestNG.run(TestNG.java:1057)
+org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2018-11-08 23:56:13 AbstractTest [INFO] 
+============= Test configuration =============
+url={must_override}
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=
+browser_version=
+selenium_host={must_override}
+driver_mode=method_mode
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+extra_capabilities=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_port=0
+browsermob_disabled_mitm=true
+proxy_set_to_system=true
+report_url={must_override}
+email_list={must_override}
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+smart_screenshot=false
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=../reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+sender_email={must_override}
+sender_pswd={must_override}
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+mobile_screen_switcher=false
+optimize_video_recording=false
+testrail_url=
+testrail_user=
+testrail_password=
+testrail_updater=com.qaprosoft.carina.core.foundation.report.testrail.EmptyTestRailUpdater
+testrail_milestone=
+testrail_assignee=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_local_storage=.
+s3_save_screenshots=FALSE
+hockeyapp_token=
+hockeyapp_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+cucumber_tests=
+cucumber_tests_app_version=
+cucumber_tests_name=
+cucumber_tests_results_image_resize=30
+cucumber_user_js_in_report=
+cucumber_report_subfolder=cucumber-html-reports
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_host={must_override}
+
+------------- Driver capabilities -----------
+================================================
+
+2018-11-08 23:56:14 L10N [INFO] Will use L10N encoding: ISO-8859-1
+2018-11-08 23:56:14 CryptoTool [ERROR] File './src/main/resources/crypto.key' does not exist
+java.io.FileNotFoundException: File './src/main/resources/crypto.key' does not exist
+	at org.apache.commons.io.FileUtils.openInputStream(FileUtils.java:292)
+	at org.apache.commons.io.FileUtils.readFileToByteArray(FileUtils.java:1815)
+	at com.qaprosoft.carina.core.foundation.crypto.SecretKeyManager.loadKey(SecretKeyManager.java:44)
+	at com.qaprosoft.carina.core.foundation.crypto.CryptoTool.<init>(CryptoTool.java:65)
+	at com.qaprosoft.carina.core.foundation.crypto.CryptoTool.<init>(CryptoTool.java:58)
+	at com.qaprosoft.carina.core.foundation.jira.Jira.<clinit>(Jira.java:57)
+	at com.qaprosoft.carina.core.foundation.AbstractTest.executeAfterTestSuite(AbstractTest.java:316)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:322)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2018-11-08 23:56:15 EmailManager [WARN] Invalid email address(es) are specified: '{must_override}'. Email report can't be sent!
+2018-11-08 23:56:15 Messager [INFO] INFO: '**************** Test execution summary ****************'.
