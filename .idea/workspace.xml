@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7527448-9429-409b-a2ec-13fda82d5977" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/_config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/_config.properties" afterDir="false" />
-    </list>
+    <list default="true" id="e7527448-9429-409b-a2ec-13fda82d5977" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,7 +15,7 @@
       <file leaf-file-name="_config.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/target/classes/_config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
+            <state relative-caret-position="148">
               <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
             </state>
           </provider>
@@ -150,7 +144,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="972" height="797" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -161,10 +154,10 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24946237" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24946237" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -185,7 +178,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/target/classes/_config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
+        <state relative-caret-position="148">
           <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
         </state>
       </provider>
