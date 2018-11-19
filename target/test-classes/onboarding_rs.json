@@ -1,0 +1,121 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "jwt_token": {
+      "type": "string"
+    },
+    "step": {
+      "type": "integer"
+    },
+    "user": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "first_name": {
+          "type": "string"
+        },
+        "last_name": {
+          "type": "string"
+        },
+        "handle": {
+          "type": "string"
+        },
+        "bio": {
+          "type": "string"
+        },
+        "is_suspended": {
+          "type": "boolean"
+        },
+        "name": {
+          "type": "string"
+        },
+        "photo": {
+          "type": "string"
+        },
+        "photo_medium": {
+          "type": "string"
+        },
+        "picture": {
+          "type": "string"
+        },
+        "password_required": {
+          "type": "boolean"
+        },
+        "password_changeable": {
+          "type": "boolean"
+        },
+        "websites": {
+          "type": "array",
+          "items": {
+            "items": {}
+          }
+        },
+        "user_interests": {
+          "type": "array",
+          "items": {
+            "items": {}
+          }
+        },
+        "avatar": {
+          "type": "null"
+        },
+        "onboarding_options": {
+          "type": "object",
+          "properties": {
+            "profile_setup": {
+              "type": "integer"
+            },
+            "add_interests": {
+              "type": "integer"
+            },
+            "add_expertise": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "profile_setup",
+            "add_interests",
+            "add_expertise"
+          ]
+        },
+        "onboarding_steps_names": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "first_name",
+        "last_name",
+        "handle",
+        "bio",
+        "is_suspended",
+        "name",
+        "photo",
+        "photo_medium",
+        "picture",
+        "password_required",
+        "password_changeable",
+        "websites",
+        "user_interests",
+        "avatar",
+        "onboarding_options",
+        "onboarding_steps_names"
+      ]
+    },
+    "onboarding_completed": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "jwt_token",
+    "step",
+    "user",
+    "onboarding_completed"
+  ]
+}
